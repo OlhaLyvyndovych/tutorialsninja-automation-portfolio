@@ -17,13 +17,13 @@ A robust, modular automated test suite built with **Playwright** and **TypeScrip
 
 The framework executes 5 distinct automated test configurations mapped closely to formal QA requirements:
 
-| Test Case ID       | Type       | Scenario / Intent                                                                     | Dynamic Assertions                           |
-| :----------------- | :--------- | :------------------------------------------------------------------------------------ | :------------------------------------------- |
-| **TC_SEARCH_001**  | Smoke      | Verify search functionality using a valid keyword via the Magnifying Glass icon.      | Grid layout rendering & active states        |
-| **TC_SEARCH_002**  | Smoke      | Verify search functionality using a valid keyword via the Enter key.                  | Grid layout rendering & active states        |
-| ** TC_SEARCH_003** | Regression | Verify search functionality handles compound product names missing spaces gracefully. | Empty-state message handling & 0-count logic |
-| **TC_SEARCH_004**  | Regression | Verify case insensitivity of the search functionality.                                | Intentional application logic testing        |
-| **TC_SEARCH_005**  | Regression | Verify edge case handling of whitespace-only queries.                                 | Tracking browser URL-encoding (`%20`) bugs   |
+| Test Case ID      | Type       | Scenario / Intent                                                                     | Dynamic Assertions                           |
+| :---------------- | :--------- | :------------------------------------------------------------------------------------ | :------------------------------------------- |
+| **TC_SEARCH_001** | Smoke      | Verify search functionality using a valid keyword via the Magnifying Glass icon.      | Grid layout rendering & active states        |
+| **TC_SEARCH_002** | Smoke      | Verify search functionality using a valid keyword via the Enter key.                  | Grid layout rendering & active states        |
+| **TC_SEARCH_003** | Regression | Verify search functionality handles compound product names missing spaces gracefully. | Empty-state message handling & 0-count logic |
+| **TC_SEARCH_004** | Regression | Verify case insensitivity of the search functionality.                                | Intentional application logic testing        |
+| **TC_SEARCH_005** | Regression | Verify edge case handling of whitespace-only queries.                                 | Tracking browser URL-encoding (`%20`) bugs   |
 
 ---
 
@@ -49,12 +49,12 @@ Below is the execution timeline and DOM snapshot verification using Playwright's
 
 Below is a live recording of the first test of the automation suite:
 
-<img src="assets/TC_SEARCH_001.gif" width="100%" autoplay loop muted playsinline></img>
+<img src="./assets/TC_SEARCH_001.gif" width="100%" autoplay loop muted playsinline></img>
 
 ### Headless Test Execution Log
 
 ```text
-  5 passed 15.8s)
+  5 passed (15.8s)
   To open last HTML report run:
     npx playwright show-report
 ```

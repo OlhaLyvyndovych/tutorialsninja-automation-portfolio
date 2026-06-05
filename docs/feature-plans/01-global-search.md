@@ -34,7 +34,7 @@ The search query must execute successfully using either of these two user action
 
 When matching products are found, the system must display them accordingly to these default UI rules:
 
-- **View Mode:** Products must display in **Grid Mode** by default (not List Mode Mode).
+- **View Mode:** Products must display in **Grid Mode** by default (not List Mode).
 - **Pagination Limit:** A maximum of **20 items** must be displayed per page.
 
 ## 3. Browser-Specific Behavior Notes (Out of Scope for Testing)
