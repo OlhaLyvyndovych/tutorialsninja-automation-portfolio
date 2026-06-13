@@ -11,7 +11,7 @@ A robust, modular automated test suite built with **Playwright** and **TypeScrip
 - **Robust Test Coverage:** Features a synchronized balance of high-priority smoke workflows and edge-case regression validations.
 - **Precondition Isolation:** Optimizes execution speed and removes code duplication by leveraging Playwright's `beforeEach` life-cycle hooks.
 - **CI/CD Pipeline Integration:** Setting up GitHub Actions to automatically trigger test suites on code push
-- [ ] **Automated API Testing:** Implementing hybrid UI/API verification to increase execution speed _(Coming Soon)_
+- **Automated API Testing:** Implementing hybrid UI/API verification to increase execution speed
 
 ---
 
