@@ -60,3 +60,16 @@ Below is a live recording of the first test of the automation suite:
   To open last HTML report run:
     npx playwright show-report
 ```
+
+---
+
+## 🚀 Current Work in Progress
+
+I am actively expanding this portfolio and am currently designing and implementing the **User Authentication Feature Test Suite**.
+
+This includes:
+
+- Completing comprehensive test planning and manual test design.
+- Developing robust end-to-end test automation scripts to validate core authentication workflows.
+
+_Note: New documentation and automated test scripts are being continuously pushed to this repository as they are developed._
